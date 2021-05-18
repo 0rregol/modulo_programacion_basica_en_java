@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package calcular_priomedio_4notas;
+
+/**
+ *
+ * @author orregol
+ */
+public class Calcular_priomedio_4notas {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+     double nota1=7.0, nota2=6.5, nota3=6.7, nota4=7.0, suma, promedio;
+     
+     suma=nota1+nota2+nota3+nota4;
+     promedio=suma/4;
+        System.out.println("el promedio de 4 notas es:"+promedio);
+    }
+    
+}
